@@ -7,6 +7,11 @@ export default function App() {
       <View style={styles.header}>
         <Text style={styles.boldText}>Hello, world!</Text>
       </View>
+      <View style={styles.body}>
+        <Text style={styles.boldText}>Lorem ipsum</Text>
+        <Text>Lorem ipsum</Text>
+        <Text>Lorem ipsum</Text>
+      </View>
     </View>
   );
 }
@@ -24,5 +29,9 @@ const styles = StyleSheet.create({
   },
   boldText: {
     fontWeight: 'bold',
+  },
+  body: {
+    backgroundColor: 'yellow',
+    padding: 20,
   }
 });
