@@ -12,10 +12,21 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+<<<<<<< HEAD
       <Text>My name is {name}</Text>
       <Text>His name is {person.name} and his age is {person.age}</Text>
       <View style={styles.buttonContainer}></View>
         <Button title='update state' onPress={clickHandler}/>
+=======
+      <View style={styles.header}>
+        <Text style={styles.boldText}>Hello, world!</Text>
+      </View>
+      <View style={styles.body}>
+        <Text style={styles.boldText}>Lorem ipsum</Text>
+        <Text>Lorem ipsum</Text>
+        <Text>Lorem ipsum</Text>
+      </View>
+>>>>>>> 79cc36f2df8a18e3d8f0062ac3ba8bd2c750c02f
     </View>
   );
 }
@@ -27,7 +38,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+<<<<<<< HEAD
   buttonContainer: {
     marginTop: 20
+=======
+  header: {
+    backgroundColor: 'pink',
+    padding: 20,
+  },
+  boldText: {
+    fontWeight: 'bold',
+  },
+  body: {
+    backgroundColor: 'yellow',
+    padding: 20,
+>>>>>>> 79cc36f2df8a18e3d8f0062ac3ba8bd2c750c02f
   }
 });
